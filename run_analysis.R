@@ -1,6 +1,6 @@
 # run_analysis.R
 # Data collected from Samsung Galaxy S II mobile phone is
-# cleaned and analysed. Resulting data is oputput to a tidy
+# cleaned and analysed. Resulting data is output to a tidy
 # data file named "tidy_data.txt"
 
 library(dplyr)
