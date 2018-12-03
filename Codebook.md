@@ -9,7 +9,7 @@ output: tidy_data.txt
 See the `README.md` file of this repository for information on how this data set was created.
 Experiments have been carried out with a group of 30 volunteers within the age bracket of 19-48 years. Eachperson performed six activities (WALKING, WALKING-UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING) while wearing a Samsung Galaxy S II smartphone on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-## Identifiers
+### Identifiers
 
 * `subject` - The ID of the test subject
 * `activity` - The type of activity performed when the corresponding measurements were taken
@@ -28,7 +28,7 @@ The measurements are classified in two domains:
 
 - Frequency-domain signals (variables prefixed by `frequencyDomain`), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
 
-#### Measurements
+### Measurements
 
 The following measurements were captured from the data and the mean for each was output to tidy_data.txt grouped by subject and activity:
 
@@ -46,7 +46,7 @@ The following measurements were captured from the data and the mean for each was
 `fBodyBodyAccJerkMagMean`, `fBodyBodyAccJerkMagStd`, `fBodyBodyAccJerkMagMeanFreq`, `fBodyBodyGyroMagMean`, `fBodyBodyGyroMagStd`
 `fBodyBodyGyroMagMeanFreq`, `fBodyBodyGyroJerkMagMean`, `fBodyBodyGyroJerkMagStd`, `fBodyBodyGyroJerkMagMeanFreq`
 
-##### Activity Labels
+### Activity Labels
 
 The following activities were were captured for each of the 30 subjects:
 
